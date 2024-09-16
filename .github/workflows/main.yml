@@ -1,12 +1,7 @@
 name: React CI
 
 on:
-  push:
-    branches:
-      - main  # Runs on push to the main branch
-  pull_request:
-    branches:
-      - main  # Runs on pull requests targeting the main branch
+  workflow_dispatch:
 
 jobs:
   build:
